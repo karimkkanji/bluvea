@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+          
+          <meta name="viewport" content="width=device-width, initial -scale=1">
+          <meta charset='utf-8'>
+
+          <!--css for this page-Bluvea.com -->
+          <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="bootstrap/lib/w3.css">
+          <link rel="stylesheet" href="bootstrap/lib/mycss.css">
+
+          <!--script for this page-Bluvea.com -->
+          <script type="text/javascript"src="bootstrap/lib/jquery/jquery.min.js"></script>
+          <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+          <!--internal css necessary to be used for hands-on control-->
+           <style type="text/css"> 
+            #homebg
+             {
+            background-image: url(bootstrap/images/City_Landscape_Background.jpg);
+            color:white ;
+             background-repeat: no-repeat;
+              }
+           </style>
+          <!--internal script necessary to be used for hands-on control-->
+          <script type="text/javascript">
+               $(document).ready(function(){
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+                  // Store hash
+                  var hash = this.hash;
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 900, function(){
+                 
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                });
+                
+                $(window).scroll(function() {
+                  $(".slideanim").each(function(){
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                      if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                      }
+                  });
+                });
+              })
+
+              </script>
+
+<title>Bluvea.com</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--this is the code for the navigation bar at the top-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+         <nav class="navbar navbar-default navbar-fixed-top" >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                        </button>
+                          <a class="navbar-brand" href="#myPage"><span class="label label-primary">Bluvea Limited</span>
+                        Bluvea.com</a>
+               </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#head1" target="_top">HOME</a></li>
+                    <li><a href="#about" target="_top">ABOUT</a></li>
+                    <li><a href="#ourwork" target="_top">OUR WORK</a></li>
+                    <li><a href='#portfolio' target="_top">PORTFOLIO</a></li>
+                    <li><a href="#clients" target="_top">CLIENTS</a></li>
+                    <li><a href="#contact" target="_top">CONTACT</a></li>
+                   
+
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+ <!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->       
+<!--this is the end of the navigation bar code--> 
+
+
+
+
+
+<!--home section starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+<div id='backgroundanime'> 
+      <header class="container-fluid" id="head1" >
+        <div class='row' >
+            <br>
+            
+            <div class='col-sm-2'>
+              <center>
+            <img src="bootstrap/images/logo.jpg" id='logo1'>
+          </center>
+            </div>   
+            
+      <div class='col-sm-8'><h3><center>INTERIORS- CONCEPT TO EXECUTION</center></h3></div>
+            
+            <div class='col-sm-2'>
+             <center>
+            <img src="bootstrap/images/logo.jpg" id='logo1'>
+          </center>
+            </div> 
+      </div>
+        <div class='row'><br></div>                  
+      </header>
+</div>
+ 
+ <div class= "container-fluid" id="homebg" >
+    <div class= "row" id="home" font-family='corbel'>
+      <div class= "col-sm-6">
+        <br>
+          <br>
+            <br>
+            <a href='mailto:info@bluvea.com'><img src="bootstrap/icons/email.png"> Email us</a>
+              <br>
+                <br>
+                  <br>
+        <center><h2>Abit about us:</h2></center>     
+        BLUVEA Limited is a Strategic Professional Services provider located in Nairobi, Kenya.
+        Our aim is to provide our clients with the ultimate in locally available professional services for interior design, project management and implementation.
+        We have together with our associate company <a href="http://www.ramara.co.ke">(RAMARA Limited)</a>, a coveted list of Blue Chip clientele who have been instrumental in our on-going success.
+     
+      </div>
+
+            <div class='col-sm-6'>
+              <center>
+                    <br>
+                      <br>
+                        <br> 
+              <img src="bootstrap/images/url.jpg" class='img-thumbnail img-responsive'></center>
+  
+            </div>      
+        </div>   
+        <div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>     
+</div>
+<!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->
+<!--home section ends here-->
+
+
+
+<!--about section starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+<div class='container-fluid'>
+  <div class='row' id='about'>
+    <div class="col-sm-6"> 
+      <a href="#ourwork"><img src="bootstrap/images/work.jpg" class='img-thumbnail img-responsive'></a>
+      Click<i> this image</i> to view some of our work.
+    </div>
+  <div class='col-sm-6 w3-container w3-blue'>
+    <center><h2>About BLUVEA:</h2></center>
+       BLUVEA Limited is a Strategic Professional Services provider located in Nairobi, Kenya.
+          <br>
+             BLUVEA combines a strong network of qualified, capable and like-minded professionals with the common ideal of providing high-quality Professional Services solution in a market that has historically been under-catered in this sector.
+               <br>
+                BLUVEA is an associate Company of RAMARA Ltd. RAMARA Limited is an award winning Designer and Manufacturer of exclusive hardwood Furniture.
+                BLUVEA grew as a company out of RAMARA as a custom design services provider. BLUVEA has since grown and caters for a wide variety of client needs, from interior design to full business case conceptualization and development.
+                  <br>
+                    As BLUVEA, we believe in honesty, ethical operations and high integrity, and we provide highly creative services solutions to our clientele. We are able to provide, through our network of professional and other resources, combined capabilities that are unique, fit for purpose and at the cutting edge of solution provision in the region.
+                    <br>
+                      While many projects seem effortless, they are created through fine-tuned processes developed and refined by firms such as us after many years ofeducation and experience. With the health, welfare and safety of our clients and consumers utilizing the spaces we create, we work to increase function, efficiency, productivity and aesthetics in residential and commercial spaces.
+
+  </div>
+<div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>
+</div>
+
+
+<!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->
+<!--about section ends here-->
+
+
+
+<!--our work section starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+
+<div class='container-fluid'>
+  <font color='black'>
+    <div class='row' id="ourwork">
+      <h1>Some of the projects we have worked on:</h1>
+        <div class='col-sm-3'>
+          <div class="w3-card-4">
+            <img src="bootstrap/images/5.jpg" class='img-thumbnail'></div>
+              OFFICE PROJECT: AON INSURANCE
+          </div>
+
+        <div class='col-sm-3'> 
+          <div class="w3-card-4">
+            <img src="bootstrap/images/6.jpg" class='img-thumbnail'></div>
+              OFFICE PROJECT: AON INSURANCE
+          </div>
+
+        <div class='col-sm-3'>
+          <div class="w3-card-4">
+            <img src="bootstrap/images/7.jpg" class='img-thumbnail'></div>OFFICE PROJECT: AON INSURANCE
+        </div>
+
+        <div class='col-sm-3'>
+          <div class="w3-card-4">
+            <img src='bootstrap/images/8.jpg' class='img-thumbnail'></div>OFFICE PROJECT : JANI ASSOCIATES
+    </div>
+  </div> 
+     <br>
+    
+    <div class='row' id='ourwork2'>
+      <div class='col-sm-3'>
+        <div class="w3-card-4">
+          <img src="bootstrap/images/9.jpg" class='img-thumbnail'></div>OFFICE PROJECT : JANI ASSOCIATES
+        </div>
+      <div class='col-sm-3'>
+        <div class="w3-card-4">
+          <img src="bootstrap/images/10.jpg" class='img-thumbnail'></div>OFFICE PROJECT : JANI ASSOCIATES
+      </div>
+      <div class='col-sm-3'>
+        <div class="w3-card-4">
+          <img src="bootstrap/images/11.jpg" class='img-thumbnail'></div>OFFICE PROJECT: MOMBASA COUNTY GOVERNOR’S OFFICE
+        </div>
+      <div class='col-sm-3'>
+        <div class="w3-card-4">
+          <img src='bootstrap/images/12.jpg' class='img-thumbnail'></div>OFFICE PROJECTS: MOMBASA COUNTY GOVERNOR’S OFFICE
+      </div>
+ </font>
+<div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>
+</div>
+<!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->
+<!--our work section ends here-->
+
+
+
+<!--Portfolio section starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+<div class='container-fluid' id='portfolio'>
+  <div class='row'>
+    <h1>The following are some of the services we offer</h1>
+      <div class='table-responsive'>
+        <!--table source code-->
+          <table class='table table-hover'>
+            <tr>
+              <th>Service we offer</th> <th>Description</th> <th>Service we offer</th> <th>Description</th> 
+              <tr>
+                <td><img src="bootstrap/images/services/ser1.jpg"></a></td><td><h3>Residential kitchen cabinetry</h3></td>
+                <td><img src="bootstrap/images/services/ser4.jpg"></a></td><td><h3>Customized Showroom fit-out</h3></td>
+              </tr>
+              <tr>
+                <td><img src="bootstrap/images/services/ser2.jpg"></td><td><h3>Solid wood bar display</h3></td>
+                <td><img src="bootstrap/images/services/ser5.jpg"></td><td><h3>Residential Ceilings and wall paper</h3></td>
+              </tr>
+              <tr>
+                <td><img src="bootstrap/images/services/ser3.jpg"></td><td><h3>Specialized Gypsum Ceilings and Lights</h3></td>
+                <td><img src="bootstrap/images/services/ser6.jpg"></td><td><h3>Customized Office Furniture</h3></td>
+              </tr>
+              <tr>
+                <td><img src="bootstrap/images/services/ser7.jpg"></td><td><h3>Wooden Flooring</h3></td>
+                <td><img src="bootstrap/images/services/ser8.jpg"></td><td><h3>Laminate flooring</h3></td>
+              </tr>
+              <tr>
+                <td><img src="bootstrap/images/services/ser9.jpg"></td><td><h3>Tiled Flooring</h3></td>
+                <td><img src="bootstrap/images/services/ser10.jpg"></td><td><h3>Granite and marble works</h3></td>
+              </tr>
+          </table>
+          <!--end of table source code-->
+</div>
+</div>
+<div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>
+</div>
+<!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->
+<!--Portfolio section ends here-->
+
+
+
+<!--the client section starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+<div class="container-fluid">
+  <div class="row" id="clients">
+    <div class="col-sm-6 w3-container w3-blue">
+      <center><h1>Clients</h1></center> 
+      <h4>
+      BLUVEA’s client base has burgeoned over the years. BLUVEA has worked on several projects jointly with RAMARA. Here are a few examples of some of BLUVEA’s Blue Chip Clients.</h4>
+      <ul>
+<li>H.E. President Uhuru Kenyatta and H.E. First Lady Margaret Kenyatta –Furniture for the First Residence at the State House Nairobi.
+<li>Government of Kenya –Furniture for three of the President’s upcountry State Lodges.</li>
+<li>Sir Richard Branson –Furniture for the Mahali Mzuri Luxury Safari Camp in the Masai Mara.</li>
+<li>Tamarind Tree Hospitality (Tamarind Group) –Specialized custom designed furniture for Osotua Tamarind Tree.</li>
+<li>SAFARICOM –Furniture for the SAFARICOM Flagship Executive High Value Client Care Centre</li>
+<li>Executive Healthcare Services (Aetna Master Distributors) –Specialist Furniture for their Executive offices.</li>
+<li>SILICA –Showroom of this Japanese Glass product manufacturer at TRM, Nairobi</li>
+<li>AGC NETWORKS LTD –Office Fit out and custom furniture for their office at The Oval, Nairobi.</li>
+<li>FVC Kenya –Office Fit out and Custom furniture for there office at the MIGARE, Nairobi. (Ongoing Project)</li>
+<li>KCB, KENCON SACCO –Office Fit out and Custom furniture for their Office at the KENCOM HOUSE, Nairobi. (ongoing Project)</li>
+</ul>
+    </div>
+  <div class='col-sm-6'>
+    <center>
+    <img src="bootstrap/images/hotel2.jpg" class='img-thumbnail img-responsive'>
+  <h4>SAFARI CAMP PROJECT: NGERENDE IN THE WILD</h4>
+</div>
+<div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>
+</div>
+<!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->
+<!--our client's section ends here-->
+
+
+
+<!--contact starts here-->
+<!--
+  ==============================
+  Karim K. Kanji. Made by hands.
+  ==============================
+-->
+<div class='container-fluid'>
+  <div class='row' id= "contact">
+    <div class="col-sm-6">
+      <center>
+        <img src="bootstrap/images/contact2.jpg" class='img-responsive'>
+      </center>
+            <div class='w3-card-4 w3-border '>
+                <center>
+                   <div class='w3-text-blue'><h3>For a preview of Bluvea</h3></div>
+                      <a href="bootstrap/Bluvea limited - PREVIEW.pdf"><h3>click here </h3></a>
+                </center> 
+            </div>
+    </div>
+<div class="col-sm-6">
+          
+<div class="panel panel-primary">             
+  <div class="panel-body" id='panel-body'>
+    <div id='title1'>
+       <h5>Telephone contacts:</h5>
+        <a>+254-786-258-832</a><br>
+        <h5>Postal Address:</h5>
+        <a> Bluvea Limited,<br>
+        P.O. Box 1239-00502,<br>
+        Karen
+        Nairobi<br>
+        Kenya<br></a>     
+        <h5>Email Contacts:</h5>
+       <a href='mailto:info@bluvea.com'>info@bluvea.com</a><br>
+    </div>
+
+  </div>
+ </div>
+</div>
+        
+<div class='row'>
+    <div class='col-sm-3'>
+    </div>
+    <div class="col-sm-6">
+      <center>
+            <a href="http://www.facebook.com"><img src="bootstrap/icons/facebook.png"></a>
+            <a href="http://www.twitter.com"><img src="bootstrap/icons/twitter.png"></a>
+           <a href="http://www.youtube.com"><img src="bootstrap/icons/youtube.png"></a> 
+            <a href="http://www.linkedin.com"><img src="bootstrap/icons/linkedin.png"></a>
+            <a href="http://www.googleplus.com"><img src="bootstrap/icons/googleplus.png"></a>
+            <a href="http://www.instagram.com"><img src="bootstrap/icons/instagram.png"></a>
+            <a href='mailto:info@bluvea.com'><img src="bootstrap/icons/email.png"></a>
+           <a href="http://www.pinterest.com"> <img src="bootstrap/icons/pinterest.png"></a>
+         </center>
+   <div class='col-sm-3'>
+     </div>
+
+ </div>
+</div>
+<div class='row'>
+  <br>
+   <center>
+  <a href="#backgroundanime"><button type="button" class='btn btn-info'>Top of page</button></a>
+</center>
+</div>
+  </div>
+ <!--
+  ====================================
+  End to source code for this section!
+  ====================================
+-->     
+<!--about ends here-->
+</body>
+</html>
+

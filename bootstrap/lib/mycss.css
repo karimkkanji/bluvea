@@ -1,0 +1,158 @@
+<style type="text/css">
+
+#home
+{
+  padding-bottom: 200px;
+  color: black;
+  font-family: try;
+
+}
+
+
+#about
+{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color:black;
+  font-size: 16px;
+  font-family: try;
+}
+#portfolio
+{ padding-top: 50px;
+  padding-bottom: 200px;
+  color:black;
+  font-size: 16px;
+  font-family: try;
+}
+#clients
+{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: black;
+  font-family: try;
+}
+#contact{
+  color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#panel-body{
+  color: black;
+  font-size: 20px;
+  font-family: try;
+}
+.navbar {
+      margin-bottom: 0;
+      background-color: #0099FF;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: try;
+  }
+
+  .navbar li a, .navbar .navbar-brand {
+      color: white !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #3333ff !important;
+      background-color:#fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+    }
+    #ourwork
+    {
+      padding-top:100px; 
+    }
+    #ourwork2
+    {
+      padding-bottom: 100px;
+    }
+#title1
+{
+  font-family: try
+}
+#head1{
+  padding-top: 80px;
+  color: white;
+}
+   @font-face {
+ font-family: try;
+src: url(comic.ttf);
+font-size: 22px;}
+
+@font-face{
+  font-family: corbel;
+  src: url(corbel.ttf) ;
+}
+body{
+  font-family:kkk;
+}
+
+#backgroundanime {
+   
+    background-color:   #1E90FF;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 30s;
+     animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+ 0%   {background-color:#0000CC; left:0px; top:0px;}
+     5%{background-color:#0033CC; left:0px; top:0px;}
+    10%  {background-color:#0000FF; left:200px; top:0px;}
+ 15%{background-color:#0033FF; left:200px; top:200px;}
+    20%  {background-color:#0066CC; left:0px; top:200px;}
+ 25%{background-color: #0066FF; left:0px; top:0px;}
+    30%  {background-color: #0099CC; left:0px; top:0px;}
+ 35%{background-color:#0099FF ; left:0px; top:0px;}
+    40%  {background-color:#00CCCC; left:0px; top:0px;}
+ 45%{background-color: #00CCFF; left:0px; top:0px;}
+    50%  {background-color:#00FFCC ; left:0px; top:0px;}
+    
+ 55%{background-color:#00FFCC ; left:0px; top:0px;}
+    60%  {background-color: #00CCFF; left:0px; top:0px;}
+ 65%{background-color:#00CCCC; left:0px; top:0px;}
+    70% {background-color:#0099FF ; left:0px; top:0px;} 
+ 75%{background-color: #0099CC; left:0px; top:0px;}
+    80%  {background-color: #0066FF; left:0px; top:0px;}
+ 85%{background-color:#0066CC; left:0px; top:200px;}
+    90% {background-color:#0033FF; left:200px; top:200px;} 
+ 95%{background-color:#0000FF; left:200px; top:0px;}
+    100% {background-color:#0033CC; left:0px; top:0px;}
+  }
+
+/* Standard syntax */
+@keyframes example {
+     0%   {background-color:#0000CC; left:0px; top:0px;}
+     5%{background-color:#0033CC; left:0px; top:0px;}
+    10%  {background-color:#0000FF; left:200px; top:0px;}
+ 15%{background-color:#0033FF; left:200px; top:200px;}
+    20%  {background-color:#0066CC; left:0px; top:200px;}
+ 25%{background-color: #0066FF; left:0px; top:0px;}
+    30%  {background-color: #0099CC; left:0px; top:0px;}
+ 35%{background-color:#0099FF ; left:0px; top:0px;}
+    40%  {background-color:#00CCCC; left:0px; top:0px;}
+ 45%{background-color: #00CCFF; left:0px; top:0px;}
+    50%  {background-color:#00FFCC ; left:0px; top:0px;}
+
+ 55%{background-color:#00FFCC ; left:0px; top:0px;}
+    60%  {background-color: #00CCFF; left:0px; top:0px;}
+ 65%{background-color:#00CCCC; left:0px; top:0px;}
+    70% {background-color:#0099FF ; left:0px; top:0px;} 
+ 75%{background-color: #0099CC; left:0px; top:0px;}
+    80%  {background-color: #0066FF; left:0px; top:0px;}
+ 85%{background-color:#0066CC; left:0px; top:200px;}
+    90% {background-color:#0033FF; left:200px; top:200px;} 
+ 95%{background-color:#0000FF; left:200px; top:0px;}
+    100% {background-color:#0033CC; left:0px; top:0px;}
+
+
+</style>
